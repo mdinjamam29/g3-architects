@@ -1,0 +1,408 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 30px 250px;
+}
+
+/* navbar style start */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    color: #131313;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+}
+.nav-items a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    margin-left: 45px;
+}
+/* navbar style end */
+/* banner style start */
+.banner-container {
+    text-align: center;
+}
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-container p {
+    font-size: 18px;
+    color: #727272;
+    margin: 0;
+}
+.button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff900e;
+    border: none;
+    margin-top: 30px;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+.banner-container img {
+    margin-top: 50px;
+    width: 100%;
+}
+/* banner style end */
+
+/* features section style start */
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 80%;
+}
+.features-thumbnail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.features-info {
+    margin-left: 50px;
+}
+.features-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.features-title #color-1 {
+    color: #727272;
+}
+.features-title #color-2{
+    color: #ff900e;
+}
+/* features section style end */
+/* love features section style start */
+.container-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin:  0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+}
+.features-details {
+    width: 50%;
+    margin-right: 50px;
+}
+.features-header h1 {
+    font-size: 45px;
+    padding-left: 20px;
+    font-weight: 700;
+    border-left: 5px solid tomato;
+} 
+.features-header p {
+    font-size: 16px;
+} 
+.features-categories{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+} 
+.features-categories h4{
+    padding-bottom: 10px;
+}
+.experince-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    background-color: #ff900e;
+    border-radius: 10px;
+    position: relative;
+    top: -150px;
+    right: 100px;
+    color: #fff;
+}
+.experince-button span {
+    font-size: 65px;
+    font-weight: 500;
+    text-align: center;
+}
+.experince-button small {
+    text-align: center;
+}
+/* love features section style end */
+
+/* some facts item style start */
+.facts-items-header{
+    width: 40%;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.facts-items-header h1{
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 700;
+}
+.facts-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin:  0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.icon-item {
+    text-align: center;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    padding: 30px;
+    color: #131313;
+    transform: background-color 2s , transform 2s;
+    cursor: pointer;
+}
+.icon-item h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.icon-item p {
+    font-size: 20px;
+    color: #727272;
+    font-weight: 600;
+}
+.icon-item:hover {
+    transform: rotate(45deg);
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* some facts item style end */
+/* contact form style start */
+.contact-form {
+    margin: 0 auto;
+    height: 500px;
+    width: 80%;
+    background-color: rgba(255, 144, 14, 0.1);
+    border-radius: 10px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 100px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff900e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+/* contact form style end */
+/* sponsor style start */
+.sponsor-section-title {
+    width: 30%;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.sponsor-section-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.sponsor-image  {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.sponsor-image img {
+   margin: 40px;
+}   
+/* sponsor style end */
+/* footer section style start */
+footer {
+    width: 75%;
+    text-align: center;
+    margin: 120px auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
+/* footer section style end */
+
+
+
+
+/* Responsive for the mobile device styles start */
+@media only screen and (max-width:576px){
+    header {
+        padding: 20px;
+    }
+    .navbar ,.nav-items a {
+        flex-direction: column;
+    }
+    .nav-items a {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .banner-title {
+        font-size: 25px;
+    }
+    .banner-container p {
+        font-size: 14px;
+    }
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+    }
+}
+/* Responsive for the mobile device styles end */
+
+/* features styles responsive for the mobile device start */
+@media only screen and(max-width:576px){
+    
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .features-thumbnail{
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr);
+        gap: 20px;
+    }
+    .features-thumbnail img {
+        width: 100%;
+    }
+    .features-info {
+        align-items: center;
+    }
+}
+/* features styles responsive for the mobile device end */
+/* enjoy and love features section responsive style start */
+
+@media only screen and (max-width:576px){
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .features-header h1{
+        font-size: 22px;
+    }
+    .features-header p {
+        font-size: 12px;
+    }
+    .features-details p{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .features-banner img {
+        width: 100%;
+    }
+    .experince-button{
+        width: 100px;
+        height: 80px;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+    .experince-button span{
+        font-size: 20px;
+    }
+}
+
+/* enjoy and love features section responsive style end */
+
+/* some facts section style responsive for the mobile start  */
+@media only screen and (max-width:576px){
+    .facts-items-header h1{
+        font-size: 20px;
+    }
+    .facts-items-header p{
+        font-size: 12px;
+    }
+    .facts-items-header {
+        width: 60%;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .facts-item {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+}
+
+/* some facts section style responsive for the mobile end */
+
+/* contact form section style responsive for the mobile device start */
+@media only screen and (max-width:576){
+    .contact-form {
+        width: 100%;
+    }
+    
+}
+/* contact form section style responsive for the mobile device end */
+
+/* our sposor section style responsive from the mobile device start */
+@media only screen and (max-width:576){
+    .sponsor-section-title h1 {
+        font-size: 20px;
+    }
+    .sponsor-section-title p {
+        font-size: 12px;
+    }
+    footer {
+        width: 100%;
+    }
+}
+/* our sposor section style responsive from the mobile device end */
+
+  
+
+
+
+
+	
